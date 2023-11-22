@@ -1,0 +1,63 @@
+@import url(style.css);
+
+.icon{
+    margin-top: 15vh;
+}
+
+.thanks{
+    line-height: 1;
+    padding: 25px 0;
+}
+
+.container-feedback{
+    max-width: 350px;
+    height: 860px;
+    width: 100%;
+    margin: auto;
+}
+
+.container-feedback p a{
+    color: inherit;
+    font-family: 'Roboto-Bold';
+}
+
+.message{
+    width: 300px;
+    height: 55px;
+    border-radius: 16px;
+    font-family: 'Roboto-Bold';
+    background-color: var(--Dark-Slate-Grey);
+    color: var(--White);
+    border: none;
+    margin-top: 30vh;
+    transition: all 0.5s ease-in;
+}
+
+.message:hover{
+    background: rgb(255, 98, 87);
+    background: linear-gradient(90deg, rgb(235 130 144) 0%, rgb(255, 39, 67) 35%, rgb(247 111 59) 100%);
+}
+
+@media(min-width:900px){
+    body{
+        background-color: hsl(234, 29%, 20%);
+    }
+    .container-feedback{
+        margin: 20vh auto;
+        padding: 0 59px;
+        background-color: #fff;
+        max-width: 500px;
+        height: 480px;
+        border-radius: 16px;
+    }
+    .icon{
+        margin-top: 4vh;
+    }
+    .thanks{
+        font-size: 56px;
+    }
+    .message{
+        margin-top: 30px;
+        width: 370px;
+    }
+}
