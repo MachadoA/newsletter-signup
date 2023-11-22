@@ -150,6 +150,7 @@ article{
         padding-right: 32px;
     }
     .main-text{
-        padding-right: 90px;
+        width: 400px;
     }
+    h1{font-size: 56px;}
 }
