@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <div class="container">
+  <main class="container">
     <picture>
       <source srcset="assets/images/illustration-sign-up-desktop.svg" media="(min-width:900px)">
       <img class="main-img" src="assets/images/illustration-sign-up-mobile.svg" alt="sign-up mobile">
@@ -34,17 +34,14 @@
         </li>
       </ul>
       
-      <div>
-        <article>
+        <form>
           <label for="email">Email address</label>
           <p class="alert">Valid email required</p>
-        </article>
-        <input type="email" name="email" id="email" placeholder="email@company.com">
-      </div>
-      
-      <button class="submit">Subscribe to monthly newsletter</button>
+          <input type="email" name="email" id="email" placeholder="email@company.com">
+          <input class="submit" type="submit" value="Subscribe to monthly newsletter">
+        </form>
     </section>
-  </div>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

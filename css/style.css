@@ -83,11 +83,13 @@ label{
     display: none;
 }
 
-input{    width: 300px;
+input{    
+    width: 300px;
     height: 55px;
     padding-left: 20px; 
     border-radius: 16px;
     border: 1px solid var(--Grey);
+    display: block;
 }
 input::placeholder{
     padding-left: 20px; 
@@ -113,6 +115,7 @@ article{
     background-color: var(--Dark-Slate-Grey);
     color: var(--White);
     border: none;
+    transition: all 0.3s ease-in-out;
 }
 .submit:focus{
     outline: 2px solid var(--Tomato);
